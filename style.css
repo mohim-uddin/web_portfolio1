@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -7,4 +8,18 @@ h1{
 }
 .heilight{
     color: orange;
+}
+.header_top{
+    height: 500px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
 }
