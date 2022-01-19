@@ -6,6 +6,16 @@ h1{
     font-size: 50px;
     font-weight: bold;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-weight: 600;
+}
+p{
+    color: dimgray;
+    font-weight:550;
+}
 .heilight{
     color: orange;
 }
@@ -22,4 +32,53 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.button-class{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange , tomato);
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header_btm{
+    height: 500px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;  
+    margin-bottom: 400px;
+}
+.experience{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 200px;
+}
+.experience .half-width{
+  width: 35%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 70%;
+  padding: 30px;
+  background: white;
+}
+.experience #exp_left{
+    border-left: 6px solid;
+    border-image: linear-gradient(185deg, lightSalmon , tomato);
+    border-image-slice: 1;
+    
+}
+.experience #exp_right{
+    border-left: 6px solid;
+    border-image: linear-gradient(185deg, blue , cyan);
+    border-image-slice: 1;
+    
+}
+footer p{
+ 
+    text-transform: uppercase;
+    text-align: center;
 }
